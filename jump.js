@@ -19,7 +19,6 @@ requestAnimationFrame(setPos)
 let ySpeed = 0
 let gravDivide = 4
 let gravSpeed = 1 / gravDivide
-// todo try to match others' average n differences (lower and higher than ours both accepted) with our average n differences
 let gravity = () => {
     if (coords[1] < gravSpeed) coords[1] = 0
     if (!coords[1]) {
